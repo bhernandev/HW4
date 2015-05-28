@@ -1,6 +1,21 @@
+/*
+  Author: Brian Hernandez
+  Description: HW 4. Project. Aperture Science HR.
+  All named functions implemented.
+  Note: File format must NOT include any of the description lines (Ones that begin with #). Working around the # became too much of a problem.
+  I repeat : The file must be pure numbers, no description of the numbers can exist.
+
+ To compile : Follow these steps within terminal
+ 1:  g++ -c aperture.cpp
+ 2:  g++ -c main.cpp
+ 3:  g++ -o main main.cpp aperture.cpp
+ 
+ To run : Should be like this example
+ 1:  ./main employee.dat tracking.dat smoke.dat
+*/
+
 #include <iostream>
 #include <fstream>
-#include <cmath>
 #include "aperture.h"
 using namespace std;
 
